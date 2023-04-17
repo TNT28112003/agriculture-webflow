@@ -1,13 +1,30 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* Tai su dung lai class */
+@layer components {
+  /* start style Button */
+  .lg-button {
+    @apply px-[50px] py-5 rounded-[20px] bg-primary flex items-center gap-x-3 justify-center;
+  }
+  .lg-text-button {
+    @apply font-workSans text-[22px] font-semibold capitalize text-white;
+  }
+  .m-button {
+    @apply px-[50px] py-[18px] rounded-[20px] bg-primary flex items-center gap-x-3 justify-center;
+  }
+  .sm-button {
+    @apply px-[50px] py-[11px] rounded-[20px] bg-primary flex items-center gap-x-3 justify-center;
+  }
+  .m-text-button {
+    @apply font-workSans text-[16px] font-semibold capitalize text-white;
+  }
+  /* end style Button */
+  /* snap scrollbar */
+  .text-clock {
+    @apply font-spaceMono text-[38px] font-bold leading-[120%] text-white;
+  }
 }
