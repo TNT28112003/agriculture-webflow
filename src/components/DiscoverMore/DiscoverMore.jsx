@@ -2,7 +2,7 @@ import React from 'react';
 
 export const DiscoverMore = (props) => {
   return (
-    <div className='w-[315px] snap-start'>
+    <div className='lg:w-full w-[315px] snap-start'>
       <img className='w-full' src={props.src} alt='' />
       <div className='w-full bg-gray px-5 pt-5 pb-[25px] rounded-b-[20px]'>
         <h2 className='text-[22px] text-white font-semibold leading-[140%] capitalize'>

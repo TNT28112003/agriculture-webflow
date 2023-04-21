@@ -18,6 +18,8 @@ module.exports = {
       backgroundImage: {
         'hero-mashroom':
           "linear-gradient(to right bottom, rgba(162, 89, 255, 0) 0%, #A259FF 100%), url('./assets/ScreenMobile.png')",
+        'hero-desktop':
+          "linear-gradient(to right bottom, rgba(162, 89, 255, 0) 0%, #A259FF 100%), url('./assets/ScreenDesktop.png')",
       },
     },
   },

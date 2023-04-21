@@ -13,3 +13,4 @@ export { default as DiscoverImage_1 } from '../assets/discover/Image.png';
 export { default as BannerMashroom } from '../assets/ScreenTablet.png';
 export { default as InfoCardIcons1 } from '../assets/infoIcons/Setup Wallet Icon1.png';
 export { default as Widget1 } from '../assets/Photo1.png';
+export { default as Widget_Desktop } from '../assets/Photo-desktop.png';

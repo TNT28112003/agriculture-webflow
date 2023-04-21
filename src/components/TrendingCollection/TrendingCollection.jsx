@@ -2,8 +2,8 @@ import React from 'react';
 
 export const TrendingCollection = (props) => {
   return (
-    <div className='w-[315px] snap-start'>
-      <img className='w-[315px]' src={props.srcPrimary} alt='' />
+    <div className='lg:w-full w-[315px] snap-start'>
+      <img className='w-full' src={props.srcPrimary} alt='' />
       <div className='flex items-center justify-between mt-[15px]'>
         <img src={props.src1} alt='' />
         <img src={props.src2} alt='' />

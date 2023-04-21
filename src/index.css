@@ -6,6 +6,10 @@
 
 /* Tai su dung lai class */
 @layer components {
+  .layout {
+    @apply px-[30px] py-[40px] md:px-[60px] lg:px-[150px];
+  }
+  
   /* start style Button */
   .lg-button {
     @apply px-[50px] py-5 rounded-[20px] bg-primary flex items-center gap-x-3 justify-center;
